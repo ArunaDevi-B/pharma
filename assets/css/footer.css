@@ -1,0 +1,20 @@
+.footer-icon-bg {
+  background-color: var(--theme-color1);
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  background-color: #2e2e2e;
+}
+.footer-titles{
+     border-bottom: 1px solid #6C6C6C;
+     width: 190px;
+}
+.copy-right{
+    border-top: 1px solid #6C6C6C;
+}

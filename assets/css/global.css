@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Teko:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-color1: #f24535;
+  --theme-color2: #b1d16d;
+  --theme-color3: #ea526b;
+  --theme-color4: #1fa750;
+  --theme-color5: #414141;
+  --theme-color6: #979797;
+  --theme-color7: #555655;
+  --theme-color8: #e31e24;
+}
+body {
+  background-color: #f9f9f9 !important;
+}
+
+.inter {
+  font-family: Inter !important;
+}
+
+.teko {
+  font-family: Teko !important;
+}
+
+.arial {
+  font-family: Arial !important;
+}
+
+.rubik {
+  font-family: Rubik !important;
+}
+
+.red {
+  color: var(--theme-color8) !important;
+}
+
+.dark-red {
+  color: var(--theme-color1) !important;
+}
+
+.dark-green {
+  color: var(--theme-color4) !important;
+}
+.dark-gray {
+  color: var(--theme-color7) !important;
+}
+
+.light-red {
+  color: var(--theme-color3) !important;
+}
+
+.light-green {
+  color: var(--theme-color2) !important;
+}
+
+.light-black {
+  color: var(--theme-color5) !important;
+}
+.light-gray {
+  color: var(--theme-color6) !important;
+}
+.black_color {
+  color: #000000 !important;
+}
+
+.fs-96 {
+  font-size: 96px !important;
+}
+
+.fs-28 {
+  font-size: 28px !important;
+}
+
+.fs-26 {
+  font-size: 26px !important;
+}
+
+.fs-22 {
+  font-size: 22px !important;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-24 {
+  font-size: 24px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-15 {
+  font-size: 15px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-13 {
+  font-size: 13px !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.fs-10 {
+  font-size: 10px !important;
+}
+
+.fs-8 {
+  font-size: 8px !important;
+}
+
+.fs-6 {
+  font-size: 6px !important;
+}
+.fw-400 {
+  font-weight: 400 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
+}
+
+.fw-700 {
+  font-weight: 700 !important;
+}
+
+.py-100 {
+  padding: 100px 0px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+  .py-100 {
+    padding: 30px 0px;
+  }
+  .fs-96 {
+    font-size: 46px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .py-100 {
+    padding: 15px 0px;
+  }
+  .fs-96 {
+    font-size: 36px !important;
+  }
+}
